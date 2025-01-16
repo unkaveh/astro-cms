@@ -17,6 +17,10 @@
     {
       "text": "Link Four",
       "href": "#"
+    },
+    {
+      "text": "Adding a link",
+      "href": "google.com"
     }
   ],
   "activeUrl": "#"
