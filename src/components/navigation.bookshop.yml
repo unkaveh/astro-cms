@@ -1,0 +1,38 @@
+name: "Navigation"
+category: "Components"
+
+props:
+  logoSrc:
+    type: image
+    label: "Logo Image"
+    default: "/src/assets/logo.svg"
+
+  logoAlt:
+    type: text
+    label: "Logo Alt Text"
+    default: "Logo"
+
+  activeUrl:
+    type: text
+    label: "Active URL (optional)"
+    default: "#"
+
+  links:
+    type: list
+    label: "Navigation Links"
+    fields:
+      text:
+        type: text
+        label: "Link Text"
+      href:
+        type: text
+        label: "Link Href"
+    default:
+      - text: "Link One"
+        href: "#"
+      - text: "Link Two"
+        href: "#"
+      - text: "Link Three"
+        href: "#"
+      - text: "Link Four"
+        href: "#"

@@ -1,0 +1,23 @@
+{
+  "logoSrc": "/src/assets/logo.svg",
+  "logoAlt": "My Logo",
+  "links": [
+    {
+      "text": "Link One",
+      "href": "#"
+    },
+    {
+      "text": "Link Two",
+      "href": "#"
+    },
+    {
+      "text": "Link Three",
+      "href": "#"
+    },
+    {
+      "text": "Link Four",
+      "href": "#"
+    }
+  ],
+  "activeUrl": "#"
+}
